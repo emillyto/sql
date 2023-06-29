@@ -1,0 +1,23 @@
+
+
+Why we need to use JDBC?
+
+-- to commit Java application to Database(it is like a bridge)
+-- We can execute SQL queries
+
+Connection!!
+-- Used to create connection with Database
+
+What is Statement and why we need to use a Statement?
+
+-- Statement has some methods to execute String SQL queries
+-- execute()- will return us boolean
+-- executeQuery()- will return us ResultSet
+-- executeUpdate()- will return us Integer (number of affected rows)
+
+ResultSEt
+-- It is return type of executeQuery method
+-- ResultSet has a next() method
+
+PreparedStatement
+-- Is used to execute parametrized queries (it is faster and reusable)
